@@ -4,7 +4,7 @@ Configure Spring WebSockets to use RabbitMQ message broker.
 
 ## What for?
 
-When working on a multi-instance web application, messaging service must be externalized from the application containers, such as: [Wildfly](http://wildfly.org/) or [Tomcat](http://tomcat.apache.org/).
+When working on a multi-instance web application, messaging service may be a problem when hosted by application containers, such as: [Wildfly](http://wildfly.org/) or [Tomcat](http://tomcat.apache.org/). That is because you may want that all connected web sockets are knowledgeable by any application container and not only by the one it was first registered. So when a message needs to be broadcasted it can truly reach all connected web sockets.
 
 One option to solve this situation is to enable a message broker that will host our channels and operate incoming and routing of messages. In here I use RabbitMQ as message broker.
 
