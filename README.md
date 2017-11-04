@@ -1,4 +1,4 @@
-# Spring WebSockets and RabbitMQ Demo
+# Spring WebSockets and RabbitMQ Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20WebSocket%20on%20RabbitMQ&url=https://github.com/selzlein/spring-websockets-rabbitmq-demo&hashtags=spring,websocket,springwebsocket,rabbitmq)
 
 Configure Spring WebSockets to use RabbitMQ message broker.
 
@@ -7,6 +7,8 @@ Configure Spring WebSockets to use RabbitMQ message broker.
 When working on a multi-instance web application, messaging service may be a problem when hosted by application containers, such as: [Wildfly](http://wildfly.org/) or [Tomcat](http://tomcat.apache.org/). That is because you may want that all connected web sockets are knowledgeable by any application container and not only by the one it was first registered. So when a message needs to be broadcasted it can truly reach all connected web sockets.
 
 One option to solve this situation is to enable a message broker that will host our channels and operate incoming and routing of messages. In here I use RabbitMQ as message broker.
+
+See [this blog post](https://selzlein.github.io/2017/11/04/spring-websocket-rabbitmq/) for a complete walk-through
 
 ## Setup
 
