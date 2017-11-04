@@ -3,23 +3,22 @@
         <title>Spring WebSocket Messaging</title>
 	    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
 	    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
-	    <script src="/websocket.js"></script>
+	    <script src="/WebSocketController.js"></script>
     </head>
-    <body onload="disconnect()">
+    <body onload="webSocket.disconnect()">
         <div>
             <div>
-                <button id="connect" onclick="connect();">Connect</button>
-                <button id="disconnect" disabled="disabled" onclick="disconnect();">
+                <button id="connect" onclick="webSocket.connect();">Connect</button>
+                <button id="disconnect" disabled="disabled" onclick="webSocket.disconnect();">
                     Disconnect
                 </button>
             </div>
             <br />
-            <div id="conversationDiv">
+            <div id="mural">
                 <input type="text" id="text" placeholder="Write a message..."/>
-                <button id="sendMessage" onclick="sendMessage();">Send</button>
+                <button id="sendMessage" onclick="webSocket.sendMessage();">Send</button>
                 <p id="response"></p>
             </div>
-        </div>
- 
+        </div> 
     </body>
 </html>
