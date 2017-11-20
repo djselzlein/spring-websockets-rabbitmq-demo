@@ -1,5 +1,7 @@
 # Spring WebSockets and RabbitMQ Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20WebSocket%20on%20RabbitMQ&url=https://github.com/selzlein/spring-websockets-rabbitmq-demo&hashtags=spring,websocket,springwebsocket,rabbitmq)
 
+[![Build Status](https://img.shields.io/travis/selzlein/spring-websockets-rabbitmq-demo.svg?style=flat-square)](https://travis-ci.org/selzlein/spring-websockets-rabbitmq-demo)
+
 Configure Spring WebSockets to use RabbitMQ message broker.
 
 ## What for?
