@@ -1,6 +1,6 @@
-# Spring WebSockets and RabbitMQ Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20WebSocket%20on%20RabbitMQ&url=https://github.com/selzlein/spring-websockets-rabbitmq-demo&hashtags=spring,websocket,springwebsocket,rabbitmq)
+# Spring WebSockets and RabbitMQ Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20WebSocket%20on%20RabbitMQ&url=https://github.com/djselzlein/spring-websockets-rabbitmq-demo&hashtags=spring,websocket,springwebsocket,rabbitmq)
 
-[![Build Status](https://img.shields.io/travis/selzlein/spring-websockets-rabbitmq-demo.svg?style=flat-square)](https://travis-ci.org/selzlein/spring-websockets-rabbitmq-demo)
+[![Build Status](https://img.shields.io/travis/djselzlein/spring-websockets-rabbitmq-demo.svg?style=flat-square)](https://travis-ci.org/djselzlein/spring-websockets-rabbitmq-demo)
 
 Configure Spring WebSockets to use RabbitMQ message broker.
 
@@ -10,7 +10,7 @@ When working on a multi-instance web application, messaging service may be a pro
 
 One option to solve this situation is to enable a message broker that will host our channels and operate incoming and routing of messages. In here I use RabbitMQ as message broker.
 
-See [this blog post](https://selzlein.github.io/2017/11/04/spring-websocket-rabbitmq/) for a complete walk-through
+See [this blog post](https://djselzlein.github.io/2017/11/04/spring-websocket-rabbitmq/) for a complete walk-through
 
 ## Setup
 
